@@ -1,0 +1,142 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(/images/map.png);
+  background-size: 375px 667px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+  padding-bottom: 49px;
+}
+
+.statusbar{
+  margin: 0 auto;
+  width: 375px;
+  height: 20px;
+  top: 0px;
+  margin-bottom: 4px;
+}
+
+.locationicon{
+  margin: 0 auto;
+  height: 45px;
+  width: 375px;
+}
+
+.popup{
+  width: 375px;
+  height: 427px;
+	margin-top: 336px;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.875);
+  border: 0.5px solid #CDCED2;
+  box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(54.3656px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.top{
+  display: block;
+  margin-bottom: 16px;
+}
+
+#favoritestar{
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+#popuptab{
+  vertical-align: top;
+  margin-top: 12px;
+  margin-left: 125px;
+  margin-right: 133px;
+
+}
+
+#xicon{
+  margin-top: 12px;
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 12px;
+  margin-bottom: 16px;
+  letter-spacing: 0em;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+	margin-left: 12px;
+	border-bottom: 1px solid #C7C6CC;
+  padding-bottom: 16px;
+}
+
+.arrivaltable{
+  margin-left: 12px;
+  width: 352px;
+  height: 280px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  line-height: 15px;
+}
+
+td{
+  padding: 7px;
+}
+
+.bus{
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 250;
+  border-bottom: 1px;
+  border-bottom-color: #C7C6CC;
+  border-bottom-style: inset;
+}
+
+.busdetail{
+  font-family: sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.arrivingsoon{
+  color: #FF3B30;
+  font-weight: 400;
+}
+
+.busnum{
+  color: #007AFF;
+}
+
+.alert{
+  color: #FF3B30;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav{
+  display: block;
+  margin: 0 auto;
+  height: 49px;
+  top: 643px;
+  background-color: #F8F8F8;
+  position: absolute;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
