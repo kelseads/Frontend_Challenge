@@ -6,20 +6,21 @@
 	  <title></title>
 	  <link rel="stylesheet" href="css/reset.css">
 	  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
 <body>
 	<section class="container">
-		<div class="statusbar"><img src="images/StatusBar.png" alt="Status Bar"></div>
+		<header><img src="images/StatusBar.png" alt="Status Bar"></header>
 		<div class="locationicon"><img src="images/locationicon.png" alt="Location Icon"></div>
-		<div class="popup">
+		<section class="popup">
 			<div class="top">
-				<img id="favoritestar" src="/images/favoritestar.png" alt="Favorite Star">
-				<img id="popuptab" src="/images/popuptab.png" alt="Pop-Up Tab">
-				<img id="xicon" src="/images/xicon.png" alt="Close">
+				<img id="favoritestar" src="images/favoritestar.png" alt="Favorite Star">
+				<img id="popuptab" src="images/popuptab.png" alt="Pop-Up Tab">
+				<img id="xicon" src="images/xicon.png" alt="Close">
 		  </div>
 			<h1>Washington & State</h1>
 			<h3>Arriving Next</h3>
-			<div class="arrivaltable">
+			<section class="arrivaltable">
 			<table style="width:100%">
 				<tr class="bus">
 					<td class="busnum">60</td>
@@ -117,15 +118,25 @@
 			    <td></td>
 				</tr>
 			</table>
-		</div>
-	  </div>
+		</section>
+  </section>
 		<footer>
-			<div class="nav">
-				<img src="images/1.png" alt="Map">
-				<img src="images/2.png" alt="Directions">
-			  <img src="images/3.png" alt="Favorites">
-			  <img src="images/4.png" alt="Account">
-			</div>
+      <div class="bottom">
+				<i class="fas fa-map-marker-alt"></i><br>
+        <p class="mapbutton">Map</p>
+      </div>
+      <div class="bottom">
+        <i class="fas fa-directions"></i><br>
+        <p>Directions</p>
+      </div>
+      <div class="bottom">
+        <i class="fas fa-star"></i><br>
+        <p>Favorites</p>
+      </div>
+      <div class="bottom">
+        <i class="fas fa-user"></i><br>
+        <p>Account</p>
+      </div>
 		</footer>
 	</section>
  </body>
